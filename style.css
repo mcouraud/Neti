@@ -77,5 +77,23 @@ h2 {
 
 .text{ 
  display:none;
- background-color: #000000;
+ background-color: rgba(0,0,0,0.4);
+ color: white;
+ font-size: 25px;
+ position: absolute;
+ bottom: 0;
+ top: 0;
+ left: 15px;
+ right: 15px;
+
+}
+
+
+.text-inside {
+  margin-top: 34%; /* poussé de la moitié de hauteur de viewport */
+  transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+}
+
+.image1:hover .text {
+  display: block;
 }
