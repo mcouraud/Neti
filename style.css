@@ -38,12 +38,12 @@ color:#F0A488;
   background-color: #4CA394;
 }
 
-.bouton-scan:hoover{
-  color:#F0A488 !important;
+.btn:hover {
+  background-color:#798081 !important;
 }
 
 button {
-  color:#FFFFFF;
+  color:#FFFFFF; 
 }
 
 #title {
@@ -97,3 +97,22 @@ h2 {
 .image1:hover .text {
   display: block;
 }
+
+#sous-titre {
+  color: #798081
+}
+
+.pad-gauche{
+    height: 50px;
+    padding-right: 0px;
+    padding-left: 250px;
+
+}
+
+.pad-droite{
+    height: 50px;
+    padding-right: 250px;
+    padding-left: 0px;
+
+}
+
