@@ -1,9 +1,11 @@
 h1 {
     color:#4CA394;
 }
+
 body {
-  margin: 0px;
+	width: 100vw;
 }
+
 #banner {
   text-align: center;
   color: #FFFFFF;
@@ -12,7 +14,7 @@ body {
   padding: 250px;
   background-position: bottom right;
   height:100vh;
-  width:100vw;
+  /*width:100vw;*/
 }
 .centered{
     text-align: center;
@@ -20,7 +22,7 @@ body {
 #footer {
     color: #eaeaea;
     background-color: #4CA394;
-    padding:50px;
+    padding:20px;
     font-size: 25px;
 }
 .logo {
@@ -53,12 +55,12 @@ position: top;
 h2 {
   font-size: 30px;
   text-align: center;
-  color:#F0A488;
+  color:#4CA394;
 }
 
 .fas{
   text-align: center;
-  color:#F0A488;
+  color:#4CA394;
   font-size: 50px;
 }
 
@@ -66,9 +68,9 @@ h2 {
   padding: 20px;
 }
 
-.margin-10{
-  margin-left: 0px;
-  margin-right: 30px;
+.container{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
 }
 
 .row{
@@ -99,7 +101,7 @@ h2 {
 }
 
 #sous-titre {
-  color: #798081
+  color: #4CA394
 }
 
 .pad-gauche{
@@ -115,4 +117,9 @@ h2 {
     padding-left: 0px;
 
 }
+
+.allcategories{
+	background-color: #e8e8e8;
+}
+
 
