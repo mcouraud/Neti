@@ -1,5 +1,6 @@
 h1 {
     color:#4CA394;
+    text-align: center;
 }
 
 body {
@@ -14,8 +15,13 @@ body {
   padding: 250px;
   background-position: bottom right;
   height:100vh;
+  background-size: cover;
+
   /*width:100vw;*/
 }
+
+
+
 .centered{
     text-align: center;
 }
@@ -101,7 +107,8 @@ h2 {
 }
 
 #sous-titre {
-  color: #4CA394
+  color: #4CA394;
+  text-align: center;
 }
 
 .pad-gauche{
